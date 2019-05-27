@@ -1,0 +1,30 @@
+﻿<Window x:Class="Magma.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Magma"
+        mc:Ignorable="d"
+        Title="ГОСТ 28147-89" Height="550" Width="1128.4" Icon="Icons/security.ico">
+    <Grid Margin="10,0,-0.4,-0.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Margin="10,60,10,0"   TextWrapping="Wrap" Text="Введите открытый текст в это поле..." Foreground="Silver"  FontSize="14"
+                 Grid.Column="0" x:Name="TextBox_plainText" MouseLeave="TextBox_plainText_MouseLeave" MouseEnter="TextBox_plainText_MouseEnter"
+                 Height="220" VerticalAlignment="Top" AcceptsReturn="True" TextChanged="TextBox_plainText_TextChanged"/>
+        <TextBox Margin="10,60,10,0" TextWrapping="Wrap" Text="Шифрованный текст появится в этом поле..." Foreground="Silver" FontSize="14"
+                 Grid.Column="1" x:Name="TextBox_cipherText" IsReadOnly="True" TextChanged="TextBox_cipherText_TextChanged" Height="220" VerticalAlignment="Top"/>
+        <TextBlock Margin="10,25,0,0" TextWrapping="Wrap" Text="Открытый текст" FontSize="18" HorizontalAlignment="Left" Width="150"
+                   Height="25" VerticalAlignment="Top" Grid.Column="0"/>
+        <TextBlock Margin="10,25,0,0" TextWrapping="Wrap" Text="Шифрованный текст" FontSize="18" HorizontalAlignment="Left" Width="174"
+                   Height="25" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock Margin="10,303,0,0" TextWrapping="Wrap" Text="Ключ (hex):" FontSize="18" Grid.Column="0" Height="29" VerticalAlignment="Top"
+                   HorizontalAlignment="Left" Width="103"/>
+        <TextBox Margin="10,340,9.8,0" TextWrapping="NoWrap" Text="Ключ для шифрования..." x:Name="TextBox_key" Foreground="Silver"
+                 FontSize="14" TextChanged="TextBox_key_TextChanged" Height="25" VerticalAlignment="Top" MouseEnter="TextBox_key_MouseEnter" MouseLeave="TextBox_key_MouseLeave"/>
+        <Button Grid.Column="0" Content="Сгенерировать новый ключ" Margin="0,377,9.8,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" Width="237" Click="Button_Click"/>
+        <Button x:Name="Button_encrypt" Content="Зашифровать заданный текст" Margin="63,439,63.8,0" FontSize="16" Height="50" VerticalAlignment="Top" Click="Button_encrypt_Click"/>
+    </Grid>
+</Window>

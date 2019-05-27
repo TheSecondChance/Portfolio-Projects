@@ -1,0 +1,10 @@
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\bin\Debug\Optimal encoding (Huffman).exe.config
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\bin\Debug\Optimal encoding (Huffman).exe
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\bin\Debug\Optimal encoding (Huffman).pdb
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal encoding (Huffman).csprojAssemblyReference.cache
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal_encoding__Huffman_.MainForm.resources
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal_encoding__Huffman_.Properties.Resources.resources
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal encoding (Huffman).csproj.GenerateResource.cache
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal encoding (Huffman).csproj.CoreCompileInputs.cache
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal encoding (Huffman).exe
+D:\Денис Роенко\Documents\Visual Studio 2017\Projects\C# projects\Optimal encoding (Huffman)\Optimal encoding (Huffman)\obj\Debug\Optimal encoding (Huffman).pdb
